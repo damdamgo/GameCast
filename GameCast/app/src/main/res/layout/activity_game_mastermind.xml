@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/pionContain">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="@dimen/cercle_color_dim"
+                    android:layout_height="@dimen/cercle_color_dim"
+                    android:background="@drawable/round_layout"
+                    android:layout_margin="10dp"
+                    android:id="@+id/pion1"
+                    android:tag="pion1">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="@dimen/cercle_color_dim"
+                    android:layout_height="@dimen/cercle_color_dim"
+                    android:background="@drawable/round_layout"
+                    android:layout_margin="10dp"
+                    android:id="@+id/pion2"
+                    android:tag="pion2">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="@dimen/cercle_color_dim"
+                    android:layout_height="@dimen/cercle_color_dim"
+                    android:background="@drawable/round_layout"
+                    android:layout_margin="10dp"
+                    android:id="@+id/pion3"
+                    android:tag="pion3">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="@dimen/cercle_color_dim"
+                    android:layout_height="@dimen/cercle_color_dim"
+                    android:background="@drawable/round_layout"
+                    android:layout_margin="10dp"
+                    android:id="@+id/pion4"
+                    android:tag="pion4">
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="@dimen/cercle_color_dim"
+                        android:layout_height="@dimen/cercle_color_dim"
+                        android:background="@drawable/round_layout"
+                        android:layout_margin="10dp"
+                        android:id="@+id/bRed"></LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="@dimen/cercle_color_dim"
+                            android:layout_height="@dimen/cercle_color_dim"
+                            android:background="@drawable/round_layout"
+                            android:layout_margin="10dp"
+                            android:id="@+id/bBlue"></LinearLayout>
+
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="@dimen/cercle_color_dim"
+                            android:layout_height="@dimen/cercle_color_dim"
+                            android:background="@drawable/round_layout"
+                            android:layout_margin="10dp"
+                            android:id="@+id/bYellow"></LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="@dimen/cercle_color_dim"
+                            android:layout_height="@dimen/cercle_color_dim"
+                            android:background="@drawable/round_layout"
+                            android:layout_margin="10dp"
+                            android:id="@+id/bViolet"></LinearLayout>
+
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="@dimen/cercle_color_dim"
+                            android:layout_height="@dimen/cercle_color_dim"
+                            android:background="@drawable/round_layout"
+                            android:layout_margin="10dp"
+                            android:id="@+id/bWhite"></LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="@dimen/cercle_color_dim"
+                            android:layout_height="@dimen/cercle_color_dim"
+                            android:background="@drawable/round_layout"
+                            android:layout_margin="10dp"
+                            android:id="@+id/bFuchsia"></LinearLayout>
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="@dimen/cercle_color_dim"
+                            android:layout_height="@dimen/cercle_color_dim"
+                            android:background="@drawable/round_layout"
+                            android:layout_margin="10dp"
+                            android:id="@+id/bGreen"></LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="@dimen/cercle_color_dim"
+                            android:layout_height="@dimen/cercle_color_dim"
+                            android:background="@drawable/round_layout"
+                            android:layout_margin="10dp"
+                            android:id="@+id/bOrange"></LinearLayout>
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <Button
+                    android:text="Send"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bSendColor"
+                    android:background="@color/colorAccent"
+                    style="@style/Widget.AppCompat.Button"
+                    android:elevation="17dp"
+                    android:textColor="#ffffff"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:fontFamily="sans-serif"
+                    android:layout_margin="10dp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

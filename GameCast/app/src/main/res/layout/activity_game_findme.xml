@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:id="@+id/containerGameFindMe">
+        <TextView
+            android:text="@string/findMe_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewFindMe"
+            android:layout_margin="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextAnswerFindMe"
+            android:hint="@string/answer"
+            android:layout_margin="10dp"
+            android:elevation="1dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="send"
+            android:id="@+id/buttonSendAnswerFindMe"
+            android:background="@color/colorAccent"
+            style="@style/Widget.AppCompat.Button"
+            android:elevation="17dp"
+            android:textColor="#ffffff"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:fontFamily="sans-serif"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fr.damdam.gamecast.Verification.LayoutProposition xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/viewProposition"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentEnd="false"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginRight="50dp"
+    android:layout_marginBottom="50dp">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame"
+        local:cardBackgroundColor="@color/colorAccent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/reponseFrame"
+                android:gravity="center_vertical|center_horizontal">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/lettreCercle"
+                            android:layout_centerHorizontal="true"
+                            android:layout_margin="5dp">
+
+                            <fr.damdam.gamecast.design.MyTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:text="D"
+                                android:id="@+id/textViewPremiereLettre"
+                                android:layout_centerInParent="true"
+                                android:textColor="#ffffff"
+                                android:textSize="50dp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/backFarg">
+
+                        </RelativeLayout>
+
+                        <fr.damdam.gamecast.design.MyTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textViewProposition"
+                            android:layout_below="@+id/lettreCercle"
+                            android:layout_centerHorizontal="true"
+                            android:text="poulet"
+                            android:textSize="40dp"
+                            android:textColor="#ffffff"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/accepte"
+                android:alpha="0"
+                android:layout_centerInParent="true"
+                android:background="#212121">
+
+                <fr.damdam.gamecast.design.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="ACCEPTER"
+                    android:id="@+id/textView"
+                    android:layout_alignParentTop="false"
+                    android:textColor="#4caf50"
+                    android:layout_centerInParent="true" />
+
+                <RelativeLayout
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:background="@drawable/accept"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true"></RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0"
+                android:id="@+id/refuse"
+                android:layout_centerInParent="true"
+                android:background="#212121">
+
+                <fr.damdam.gamecast.design.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="REFUSER"
+                    android:id="@+id/textView2"
+                    android:textColor="#f44336"
+                    android:layout_centerInParent="true" />
+
+                <RelativeLayout
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_below="@+id/textView2"
+                    android:background="@drawable/refuse"
+                    android:layout_centerHorizontal="true"></RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</fr.damdam.gamecast.Verification.LayoutProposition>
+

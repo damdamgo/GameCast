@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GameCast</string>
+    <string name="text_welcome">veuillez vous connecter à votre chromecast</string>
+    <string name="setting__title">parametre</string>
+    <string name="setting_text_connect">entrer votre pseudo</string>
+    <string name="setting_button_connect">se connecter</string>
+
+    <string name="findMe_text">entrer votre proposition</string>
+    <string name="answer">reponse</string>
+
+    <string name="accept">accepter</string>
+    <string name="refuse">refuser</string>
+
+    <string name="errorVersion">erreur de version : veuillez mettre à jour votre app</string>
+    <string name="errorLimitPLayer">trop de joueur sont connectés</string>
+
+    <string name="connectButton">Se connecter</string>
+</resources>
