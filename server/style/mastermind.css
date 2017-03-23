@@ -1,0 +1,28 @@
+.mastermind {
+  text-align: center; }
+  .mastermind #gameBoard {
+    width: 50%;
+    display: inline-block;
+    background: url(../assets/mastermind.jpg) repeat fixed 0 0;
+    text-align: center; }
+    .mastermind #gameBoard #gameLine {
+      height: 8.333%;
+      width: 100%;
+      border-bottom: 1px solid black;
+      text-align: center; }
+      .mastermind #gameBoard #gameLine td {
+        text-align: center; }
+      .mastermind #gameBoard #gameLine .cercleCouleur {
+        height: 90%;
+        background-color: grey;
+        border-radius: 50%;
+        display: inline-block;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+      .mastermind #gameBoard #gameLine .pion {
+        height: 90%;
+        background-color: grey;
+        border-radius: 50%;
+        display: inline-block;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
+/*# sourceMappingURL=mastermind.css.map */

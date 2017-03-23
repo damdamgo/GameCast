@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white; }
+  body #mainMenu {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100; }
+    body #mainMenu .fixMenu {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+      body #mainMenu .fixMenu .fixLayoutPlayer {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        background-color: #757575; }
+    body #mainMenu .flexibleMenu {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+      body #mainMenu .flexibleMenu .layoutPlayer {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0; }
+        body #mainMenu .flexibleMenu .layoutPlayer .tablePlayer {
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          vertical-align: middle;
+          background-color: #424242;
+          color: white; }
+  body #mainVerification {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 90; }
+    body #mainVerification .verification {
+      height: 80%;
+      width: 50%;
+      text-align: center;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background-color: white;
+      top: 100%;
+      opacity: 0;
+      transform: translateY(-50%); }
+      body #mainVerification .verification table {
+        width: 100%;
+        height: 100%;
+        text-align: center; }
+      body #mainVerification .verification .verificationIconContent {
+        position: absolute;
+        width: 100%;
+        height: 100%; }
+        body #mainVerification .verification .verificationIconContent .verificationIcon {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 0;
+          right: 0;
+          margin: auto; }
+  body .mainGame {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 80; }
+  body #findMe {
+    background-color: white; }
+    body #findMe table {
+      width: 100%;
+      height: 50%;
+      text-align: center;
+      font-size: 5em; }
+
+/*# sourceMappingURL=input.css.map */

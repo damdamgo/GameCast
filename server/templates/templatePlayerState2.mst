@@ -1,0 +1,6 @@
+<div id="template" type="text/html">
+<table class="tablePlayer">
+	<tr>
+		<td>{{mes}}</td>
+	</tr>
+</table></div>

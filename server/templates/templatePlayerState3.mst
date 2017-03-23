@@ -1,0 +1,9 @@
+<div id="template" type="text/html">
+<table class="tablePlayer">
+	<col span="3" style="width: 33%;" />
+	<tr>
+		<td>{{nickname}}</td>
+		<td>{{score}}</td>
+		<td>{{state}}</td>
+	</tr>
+</table></div>
